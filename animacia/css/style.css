@@ -1,0 +1,111 @@
+/*.car-move{
+    height: 50px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 70px;
+    animation-name:pizza-move;
+    animation-duration:5px;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-duration: alternate;
+    
+}
+@keyframes pizza-move {
+from {left:0}
+to {left:800px;}
+}
+
+
+/*@keyframes xaxvi{
+    0%{transform:translatex(0);}
+    25%{transform:translatex(200px);}
+    50%{transform:translatex(400px);}
+    100%{transform:translatex(600px);}
+}*/
+.background {
+	background-image: url(../images/79408010-pizza-background-for-your-design.webp);
+	width: 100%;
+	height: 800px;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.bird {
+
+	position: absolute;
+	top: 10px;
+	right: 50px;
+	transform: rotate(-30deg);
+	width: 100px;
+	height: 100px;
+	animation: bird 30s infinite;
+	
+}
+
+
+
+@keyframes bird {
+
+0% {right: 100px;}
+100% {right: 1500px;}
+
+}
+
+
+
+.bird2 {
+
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	width: 150px;
+	height: 150px;
+	animation: sun 30s infinite;
+
+}
+
+
+@keyframes bird2 {
+
+0% {right: 1px;}
+100% {right: 150px;}
+
+}
+
+.ship {
+
+    position: absolute;
+	top: 550px;
+	left: 650px;
+	width: 150px;
+	height: 150px;
+	animation: ship 30s infinite;
+	
+}
+
+ @keyframes ship {
+
+ 	0% { left: 100px; }
+ 	100% {left: 1500px;  }
+ }
+
+
+ .sun {
+ 	position: absolute;
+	top: 100px;
+	left: 100px;
+	width: 150px;
+	height: 150px;
+	animation: sun 30s infinite;
+
+ }
+
+
+ @keyframes sun {
+
+ 	0% { top: 1px; }
+ 	100% {top: 100px;  }
+ }
+
+
